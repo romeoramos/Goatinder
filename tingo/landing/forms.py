@@ -1,11 +1,11 @@
 from django import forms
 from django.forms import ModelForm
-from .models import Images
+from .models import ImageProfile
 
 class ImageUploadForm(ModelForm):
 
     class Meta:
-        model = Images
+        model = ImageProfile
         fields = ('descripcion','imagen')
         widget = {
             'descripcion': forms.Textarea(
