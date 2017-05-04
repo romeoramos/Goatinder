@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.banner{
+	width: 100%;
+}
+
+@media screen AND (min-width: 1024px) {
+
+	body{
+		background: white;
+		font-size: 16px;
+	}
+
+	div#container{
+		background: #fff;
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	.col {
+		display: inline-block;
+		margin-right: -4px;
+		vertical-align: top;
+		background: #ccc;
+		width: 29%;
+		padding: 2.15%;
+	}
+
+div#wrapper {
+	margin: 0 auto 0 auto;
+	width: 1500px;
+}
+
+	div#header-wrapper {
+		width: 100%;
+		margin: 0 auto 0 auto;
+	}
+
+	div#header {
+		font-family: 'Lato', sans-serif;
+		color: black;
+		vertical-align: top;
+		font-size: 50px;
+	}
+
+	#header h1 {
+		display: inline-block;
+	}
+
+div#logo {
+	font-family: 'Lato', sans-serif;
+	width: 50%;
+	vertical-align: top;
+	padding: 50px;
+	margin-right: -4px;
+	display: inline-block;
+}
+
+	ul#logo li {
+		display: inline;
+		font-size: 30%;
+		font-weight: 600;
+		color: #fff;
+	}
+
+	#logo h1 a,
+	#logo h1 a:link {
+		color: #000;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	#logo li a,
+	#logo li a:link{
+		color: black;
+		text-decoration: none;
+	}
+
+	#logo li a:link {
+		color: white;
+	}
+
+	#logo li a:hover{
+		color: yellow;
+	}
+
+	#logo li a:active {
+		background: black;
+	}
+
+
+div#menu{
+	width: 40%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+	#menu ul{
+		list-style-type: none;
+		padding: 5px 10px;
+	}
+
+	#menu li {
+		display: inline-block;
+		padding: 5px 10px;
+		font-size: 15px;
+	}
+
+	#menu li a,
+	#menu li a:link {
+		color: black;
+		text-decoration: overline;
+	}
+
+	#menu li a:link {
+		color: black;
+	}
+
+	#menu li a:hover {
+		color: #ccc;
+	}
+
+div#banner{
+	width: 100%
+}
+
+	div.content {
+		background: url();
+		vertical-align: center;
+	}
+
+	img {
+    	width: 100%;
+    	height: auto;
+    }
+
+
+div#page {
+	width: 100%;
+	vertical-align: top;
+
+}
+
+		div#content {
+			width: 100%;
+			margin-right: -4px;
+			display: inline-block;
+			font-family: 'Lato', sans-serif;
+			padding: 70px 50px 5px 25px;
+		}
+
+		.post a{
+			color: #000;
+		}
+
+		div#content h2 a{
+			color: black;
+			text-decoration: none;
+		}
+
+
+		h2.title {
+			font-family: 'Lato', sans-serif;
+			text-decoration: none;
+			font-size: 30px;
+			color: #000;
+			padding: 0px 50px 70px 5px;
+		}
+
+		div.entry {
+			font-size: 25px;
+			color: black;
+		}
